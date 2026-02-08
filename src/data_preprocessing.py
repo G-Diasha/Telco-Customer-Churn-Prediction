@@ -12,6 +12,7 @@ def encode_binary_columns(df): #function to convert the binary values to integer
     df[binary_cols] = df[binary_cols].replace(mapping)
     return df
 
+
 def encode_multi_column(df): #function to convert multicategorical column to boolean values with extra column creation
     multi_cols = [
         "MultipleLines", "InternetService", "OnlineSecurity",
