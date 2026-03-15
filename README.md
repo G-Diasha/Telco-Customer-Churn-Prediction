@@ -19,7 +19,7 @@ The solution includes:
 **🧠 Key Highlights**
 **Model:** XGBoost Classifier
 
-**Optimization: **Optuna hyperparameter tuning
+**Optimization**: Optuna hyperparameter tuning
 
 **Performance Gain:** Recall improved from **0.83 → 0.95**, maximizing recall to ensure most churn-prone customers are correctly identified.
 
@@ -123,10 +123,3 @@ _uvicorn api.main:app --reload_
 **Run Streamlit App**
 
 _streamlit run app/streamlit_app.py_
-
-
-**👩‍💻 Author**
-
-_Graduate AI / Machine Learning Engineer_
-
-_Passionate about building production-ready ML systems that solve real business problems._
